@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --accent-color: blue;
+}
+
+.container {
+  display: grid;
+}
+
+.wrapper {
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 5fr;
+  grid-template-areas: "sidebar header" "sidebar main-content";
+}
+
+.header {
+  padding: 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightskyblue;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr 2fr;
+  gap: 15px;
+  padding: 1rem;
+}
+
+.main-content {
+  grid-area: main-content;
+  background-color: lightgrey;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas: "your-projects announcements" " your-projects trending";
+}
+
+.your-projects {
+  grid-area: your-projects;
+}
+
+.announcements {
+  grid-area: announcements;
+}
+
+.trending {
+  grid-area: trending;
+}
