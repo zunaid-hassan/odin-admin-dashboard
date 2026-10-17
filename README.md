@@ -4,7 +4,7 @@
 
 Project link: https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
-<!-- Live preview: https://zunaid-hassan.github.io/odin-sign-up-form/ -->
+Live preview: https://zunaid-hassan.github.io/odin-admin-dashboard/
 
 ### Description
 
