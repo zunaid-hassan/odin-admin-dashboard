@@ -14,6 +14,10 @@ An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course
 
 ### Credits & Attribution
 
+**Images**
+
+- Profile pictures taken from [Circular](https://www.flaticon.com/packs/people-avatar-9) by [BrazOz, Flaticon](https://www.flaticon.com/authors/braoz)
+
 **Icons**
 
 - [Material Design Icons](https://pictogrammers.com/library/mdi/) from Pictogrammers

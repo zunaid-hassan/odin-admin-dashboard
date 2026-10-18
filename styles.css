@@ -28,9 +28,9 @@
 
 .wrapper {
   grid-template-columns: 1.2fr 5fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: auto 5fr;
   grid-template-areas: "sidebar header" "sidebar main-content";
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* HEADER  */
@@ -38,7 +38,8 @@
 .header {
   grid-area: header;
   padding: 2.5rem;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 40px;
 }
 
 .header svg {
@@ -50,12 +51,48 @@
 } */
 
 .top-header-section {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr 2fr;
 }
 
 .search-box {
   grid-template-columns: 2rem 5fr;
   align-items: center;
+  grid-column: 1;
+}
+
+.top-right-header {
+  grid-column: 3;
+  grid-template-columns: 1fr 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+
+.top-right-header a {
+  align-self: center;
+
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.1s;
+}
+
+.top-right-header a:link,
+.top-right-header a:visited {
+  color: black;
+}
+
+.top-right-header a:hover {
+  color: var(--blue-accent-color);
+}
+
+.top-right-header a:active {
+  scale: 0.95;
+  color: var(--blue-accent-color);
+}
+
+.profile-image {
+  width: 100%;
 }
 
 input[type="search"] {
