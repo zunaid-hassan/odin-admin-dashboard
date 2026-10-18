@@ -1,4 +1,4 @@
-# The Odin Project: Admin Dahboard
+## The Odin Project: Admin Dahboard
 
 ### Links
 
@@ -12,7 +12,7 @@ An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course
 
 <!-- ### Preview -->
 
-<!-- ### Credits & Attribution -->
+### Credits & Attribution
 
 **Icons**
 
