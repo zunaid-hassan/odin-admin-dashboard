@@ -7,32 +7,55 @@
     <title>Admin Dashboard</title>
   </head>
   <body>
-    <div class="wrapper container">
-      <div class="header container">Header</div>
-      <div class="sidebar container">
-        <div class="dashboard-nav">Dashboard</div>
+    <div class="wrapper grid container">
+      <header class="header grid container">Header</header>
+      <aside class="sidebar grid container">
+        <div class="dashboard-nav"><h1>Dashboard</h1></div>
 
-        <div class="top-nav">
+        <nav class="top-nav">
           <div>Home</div>
           <div>Profile</div>
           <div>Messages</div>
           <div>History</div>
           <div>Tasks</div>
           <div>Communities</div>
-        </div>
-        <div class="bottom-nav">
+        </nav>
+
+        <nav class="bottom-nav">
           <div>Settings</div>
           <div>Support</div>
           <div>Privacy</div>
-        </div>
-      </div>
-      <div class="main-content container">
-        <div class="your-projects container">Your Projects</div>
+        </nav>
+      </aside>
+      <main class="main-content grid container">
+        <section class="your-projects grid container">
+          <h2>Your Projects</h2>
+          <div class="card">
+            <h3>Super Cool Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              nisi odio harum tenetur similique veniam dignissimos hic rerum
+              earum consectetur blanditiis, odit temporibus, deserunt voluptatum
+              in ea laborum! Repellat, culpa.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Less Cool Project</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              nisi odio harum tenetur similique veniam dignissimos hic rerum
+              earum consectetur blanditiis, odit temporibus, deserunt voluptatum
+              in ea laborum! Repellat, culpa.
+            </p>
+          </div>
+        </section>
 
-        <div class="announcements container">Announcements</div>
+        <section class="announcements grid container">
+          <h2>Announcements</h2>
+        </section>
 
-        <div class="trending container">Trending</div>
-      </div>
+        <section class="trending grid container"><h2>Trending</h2></section>
+      </main>
     </div>
   </body>
 </html>

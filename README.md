@@ -13,3 +13,11 @@ An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course
 <!-- ### Preview -->
 
 <!-- ### Credits & Attribution -->
+
+**Icons**
+
+- [Material Design Icons](https://pictogrammers.com/library/mdi/) from Pictogrammers
+
+**Fonts**
+
+- [Madimi One](https://fonts.google.com/specimen/Madimi+One?preview.script=Latn) by Taurai Valerie Mtake, Mirko Velimirović
