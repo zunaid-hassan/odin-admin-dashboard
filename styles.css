@@ -79,6 +79,8 @@
 .sidebar a:link {
   cursor: pointer;
   text-decoration: none;
+
+  color: white;
 }
 
 .sidebar a:visited {
