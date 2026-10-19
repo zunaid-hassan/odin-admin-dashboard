@@ -10,7 +10,9 @@ Live preview: https://zunaid-hassan.github.io/odin-admin-dashboard/
 
 An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course, with CSS Grid handling the layout. It features a sidebar with branding and navigation, a header with a search bar, user info, and action buttons, and a main content area with project cards, announcements, and trending items, all laid out using nested grid containers.
 
-<!-- ### Preview -->
+### Preview
+
+<img src="./images/preview.png" alt="Screenshot of the admin dashboard project">
 
 ### Credits & Attribution
 
