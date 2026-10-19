@@ -1,4 +1,4 @@
-## The Odin Project: Admin Dahboard
+## The Odin Project: Admin Dashboard
 
 ### Links
 
@@ -8,7 +8,7 @@ Live preview: https://zunaid-hassan.github.io/odin-admin-dashboard/
 
 ### Description
 
-An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course, with CSS Grid handling most of the layout. It features a sidebar with branding and navigation, a header with a search bar, user info, and action buttons, and a main content area with project cards, announcements, and trending items, all laid out using nested grid containers.
+An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course, with CSS Grid handling the layout. It features a sidebar with branding and navigation, a header with a search bar, user info, and action buttons, and a main content area with project cards, announcements, and trending items, all laid out using nested grid containers.
 
 <!-- ### Preview -->
 
@@ -16,7 +16,7 @@ An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course
 
 **Images**
 
-- Profile pictures taken from [Circular](https://www.flaticon.com/packs/people-avatar-9) by [BrazOz, Flaticon](https://www.flaticon.com/authors/braoz)
+- Profile pictures taken from [Circular](https://www.flaticon.com/packs/people-avatar-9) by [BrazOz](https://www.flaticon.com/authors/braoz), Flaticon
 
 **Icons**
 
@@ -25,3 +25,5 @@ An admin dashboard built for The Odin Project’s Intermediate HTML & CSS course
 **Fonts**
 
 - [Madimi One](https://fonts.google.com/specimen/Madimi+One?preview.script=Latn) by Taurai Valerie Mtake, Mirko Velimirović
+
+- [Roboto](https://fonts.google.com/specimen/Roboto) by Christian Robertson, ParaType, Font Bureau
